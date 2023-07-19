@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="wrapper">
+        <div class="header-mobile">
+            <h1 class="logo">Gaming<span>Shop</span></h1>
+            <button class="open-menu" id="open-menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        <div class="nav">
+            <button class="close-menu" id="close-menu">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="header">
+                <h1 class="logo">Gaming<span>Shop</span></h1>
+            </div>
+
+            <!-- Navbar -->
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="all" class="btn-menu btn-category active">Tous les produits</button>
+                    </li>
+                    <li>
+                        <button id="play" class="btn-menu btn-category">PlayStation</button>
+                    </li>
+                    <li>
+                        <button id="xbox" class="btn-menu btn-category">Xbox</button>
+                    </li>
+                    <li>
+                        <button id="switch" class="btn-menu btn-category">Switch</button>
+                    </li>
+                    <li>
+                        <a class="btn-menu btn-basket" href="./basket.html">
+                            <i class="fa-solid fa-basket-shopping"></i>Panier <span class="num" id="num">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN SECTION -->
+    <main>
+        <h2 class="title" id="title">Tous les produits</h2>
+        <div class="container-products" id="container-products">
+            <!-- Relié à JS -->
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p class="footer-text">2023 - Neliiel_DW</p>
+    </footer>
+
+
+    <script src="./main.js"></script>
+    <script src="./menu.js"></script>
+</body>
+</html>
